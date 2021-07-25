@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+body {
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.hidden {
+  display: none;
+}
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#greeting {
+  margin-top: 0px;
+}
+
+#clock {
+  display: flex;
+  height: 40vh;
+  font-size: 5em;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+.user {
+  display: flex;
+}
+#login-form {
+  width: 100vw;
+  height: 5vh;
+}
+#login-form input:first-child {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  width: 30%;
+}
+#login-form input:first-child::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+#login-form input:last-child {
+  border-radius: 4px;
+  color: white;
+  background-color: cornflowerblue;
+  font-family: "Noto Sans KR";
+  width: 65px;
+  outline: none;
+  margin-left: 10px;
+}
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+#todo-form input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+#todo-form input::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
